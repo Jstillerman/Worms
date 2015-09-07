@@ -79,6 +79,5 @@ function rand(){
 }
 
 
-for(var i = 0; i < 20; i++){
-  addObject(player);
-}
+ setInterval(function(){
+addObject(player);}, 500)
